@@ -1,0 +1,87 @@
+.footer {
+  background-color: $cGrey;
+  padding: 43px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  @media screen and (max-width: 1000px) {
+    align-items: center;
+    padding: 10px 0;
+  }
+  .footer__container {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: 2fr 5fr 5fr;
+    grid-column-gap: 100px;
+    @media screen and (max-width: 1400px) {
+      width: 100%;
+      padding: 0 10px;
+    }
+    @media screen and (max-width: 1300px) {
+      grid-template-columns: 3fr 4fr 4fr;
+    }
+    @media screen and (max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+    }
+    .footer__company-name {
+      font-size: 20px;
+      color: white;
+      opacity: 0.8;
+      font-family: "Roboto Regular", sans-serif;
+      @media screen and (max-width: 1000px) {
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+    .footer__contacts {
+      @media screen and (max-width: 1000px) {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        margin-top: 5px;
+        color: #989898;
+        &:last-child {
+          display: none;
+        }
+      }
+      .footer__address {
+        font-size: 18px;
+        color: #989898;
+        font-family: "Roboto Bold", sans-serif;
+        @media screen and (max-width: 1000px) {
+          text-align: center;
+          font-size: 12px;
+        }
+        .bold {
+          font-weight: 500;
+        }
+        .address__link {
+          text-decoration: none;
+          color: #989898;
+          font-family: "Roboto Light", sans-serif;
+          font-weight: lighter;
+        }
+      }
+      .link__container {
+        margin-top: 10px;
+        .footer__phoone {
+          color: white;
+          opacity: 0.8;
+          font-size: 20px;
+          font-weight: 500;
+          text-decoration: none;
+          transition: 0.3s;
+          &:hover {
+            color: #e2d18e;
+          }
+          @media screen and (max-width: 1000px) {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}

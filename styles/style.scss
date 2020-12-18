@@ -1,5 +1,16 @@
+@import "./variables";
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+@import "./navbar";
+
+main {
+  @import "./main-view";
+  @import "./catalogue-view.scss";
+}
+
+@import "./footer";

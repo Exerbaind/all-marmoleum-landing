@@ -3,8 +3,186 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./highslide/highslide.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <!--[if lt IE 7]>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="/highslide/highslide-ie6.css"
+      />
+    <![endif]-->
+    <title>Forbo Marmoleum</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header__container">
+      <div class="header">
+        <a class="header__logo" href="#intro">Marmoleum Forbo</a>
+        <div class="header__contacts">
+          <p class="contacts__name">Купить у официального дистрибутора:</p>
+          <a href="tel:+74996004560" class="contacts__telephone"
+            >+7 (499) 600-45-60</a
+          >
+          <a href="tel:+78126004560" class="contacts__telephone"
+            >+7 (812) 600-45-60</a
+          >
+        </div>
+        <button class="header__sertificate">Сертификат партнера Forbo</button>
+        <button class="header__menu-handler">
+          <span></span>
+        </button>
+        <div class="header__navbar">
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#catalogue" class="navbar__link">Каталог</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#properties" class="navbar__link">Свойства</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#price" class="navbar__link">Цены</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#contacts" class="navbar__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="main-view">
+        <div class="main-view__content">
+          <h1 class="content__title">
+            НАТУРАЛЬНЫЙ ЛИНОЛЕУМ<br />Forbo Marmoleum
+          </h1>
+          <p class="content__sub-title">для коммерческих<br />помещений</p>
+          <p class="content__sale-text">
+            <span class="content__sale-text__star">*</span>Чтобы получить
+            проектную скидку,<br />позвоните нам
+          </p>
+          <button class="content__order-call-button">Заказать звонок</button>
+        </div>
+        <div class="main-view__decoration">
+          <hr />
+          <ul class="decoration__list">
+            <li class="list__item">Торговые центры</li>
+            <li class="list__item">Офисы</li>
+            <li class="list__item">Больницы</li>
+            <li class="list__item">Школы</li>
+          </ul>
+        </div>
+        <img
+          src="./assets/icons/arrow-down.svg"
+          class="main-viwe__arrow-down"
+          alt=""
+        />
+      </section>
+      <section class="catalogue-view">
+        <div class="catalogue__header">
+          <p class="catalogue__header-title">Коллекции:</p>
+          <ul class="catalogue__list">
+            <li class="catalogue__list-item catalogue__list-item_active">
+              Cocoa
+            </li>
+            <li class="catalogue__list-item">Striato</li>
+            <li class="catalogue__list-item">Real</li>
+            <li class="catalogue__list-item">Splash</li>
+            <li class="catalogue__list-item">Terra</li>
+            <li class="catalogue__list-item">Slate</li>
+            <li class="catalogue__list-item">Fresco</li>
+            <li class="catalogue__list-item">Walton</li>
+            <li class="catalogue__list-item">Vivace</li>
+            <li class="catalogue__list-item">Concrete</li>
+            <li class="catalogue__list-item">Piano</li>
+            <li class="catalogue__list-item">Acoustic</li>
+            <li class="catalogue__list-item">Decibel</li>
+            <li class="catalogue__list-item">Ohmex</li>
+            <li class="catalogue__list-item">Sport</li>
+          </ul>
+          <select class="catalogue__list-mobile">
+            <option class="catalogue__list-option" value="Cocoa" selected>
+              Cocoa
+            </option>
+            <option class="catalogue__list-option" value="Striato">
+              Striato
+            </option>
+            <option class="catalogue__list-option" value="Real">Real</option>
+            <option class="catalogue__list-option" value="Splash">
+              Splash
+            </option>
+            <option class="catalogue__list-option" value="Terra">Terra</option>
+            <option class="catalogue__list-option" value="Slate">Slate</option>
+            <option class="catalogue__list-option" value="Fresco">
+              Fresco
+            </option>
+            <option class="catalogue__list-option" value="Walton">
+              Walton
+            </option>
+            <option class="catalogue__list-option" value="Vivace">
+              Vivace
+            </option>
+            <option class="catalogue__list-option" value="Concrete">
+              Concrete
+            </option>
+            <option class="catalogue__list-option" value="Piano">Piano</option>
+            <option class="catalogue__list-option" value="Acoustic">
+              Acoustic
+            </option>
+            <option class="catalogue__list-option" value="Decibel">
+              Decibel
+            </option>
+            <option class="catalogue__list-option" value="Ohmex">Ohmex</option>
+            <option class="catalogue__list-option" value="Sport">Sport</option>
+          </select>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <p class="footer__company-name">ООО &laquo;Гельстер&raquo;</p>
+        <div class="footer__contacts">
+          <p class="footer__address">
+            <span class="bold">Офис Москва:</span>
+            <a
+              class="address__link"
+              href="https://goo.gl/maps/UPxfVxVSAWSd6Pw19"
+              target="_blank"
+              >пр. Андропова, дом 22,<br />БЦ &laquo;Нагатинский&raquo;, офис
+              810</a
+            >
+          </p>
+          <p class="link__container">
+            <a href="tel:+74996004560" class="footer__phoone"
+              >+7 (499) 600-45-60</a
+            >
+          </p>
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__address">
+            <span class="bold">Офис Санкт-Петербург:</span>
+            <a
+              class="address__link"
+              href="https://goo.gl/maps/MyxgR6aE6x68Sg9W6"
+              target="_blank"
+              >Васильевский остров,<br />9-я линия, дом 34, БЦ
+              &laquo;Magnus&raquo;, офис 720</a
+            >
+          </p>
+          <p class="link__container">
+            <a href="tel:+78126004560" class="footer__phoone"
+              >+7 (812) 600-45-60</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script defer src="./highslide/highslide.js"></script>
+    <script defer src="./script/navbar.js"></script>
+  </body>
 </html>
